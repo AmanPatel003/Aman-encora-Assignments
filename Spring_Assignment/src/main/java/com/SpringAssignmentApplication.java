@@ -14,6 +14,6 @@ public class SpringAssignmentApplication {
 	
 	@Bean
 	public RestTemplate restTemplate() {
-		return new 
+		return new RestTemplate();
 	}
 }
